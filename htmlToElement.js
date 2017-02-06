@@ -11,7 +11,7 @@ var Image = require('./helper/Image')
 
 
 var LINE_BREAK = '\n'
-var PARAGRAPH_BREAK = '\n\n'
+var PARAGRAPH_BREAK = '\n'
 var BULLET = '\u2022 '
 
 function htmlToElement(rawHtml, opts, done) {
